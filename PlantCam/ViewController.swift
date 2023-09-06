@@ -25,7 +25,7 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
             
             let slider = UISlider()
             slider.minimumValue = 1
-            slider.maximumValue = 100
+            slider.maximumValue = 1000
             slider.value = Float(N)
             view.addSubview(slider)
             // Add constraints to position the slider
@@ -67,6 +67,7 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
     // Update the value of N when the slider's value changes
     @objc func sliderChanged(_ sender: UISlider) {
         N = Int(sender.value)
+        print(N)
     }
     
     fileprivate func setupIdentifierConfidenceLabel() {
@@ -110,7 +111,7 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
 
                     // Update label with most frequent prediction in buffer
                     let mostFrequentPrediction = self.predictionBuffer.mostFrequent()
-                    self.identifierLabel.text = "\(mostFrequentPrediction) \(firstObservation.confidence*100)"
+                    self.identifierLabel.text = "\(String(describing: mostFrequentPrediction)) \(firstObservation.confidence*100)"
                 }
             } else {
                 print("No results or error")
