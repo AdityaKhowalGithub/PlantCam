@@ -13,6 +13,7 @@
 		BB370F292AA7BA1B00B0BAAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB370F272AA7BA1B00B0BAAD /* Main.storyboard */; };
 		BB370F2B2AA7BA1C00B0BAAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB370F2A2AA7BA1C00B0BAAD /* Assets.xcassets */; };
 		BB370F2E2AA7BA1C00B0BAAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB370F2C2AA7BA1C00B0BAAD /* LaunchScreen.storyboard */; };
+		BB370F362AA7F05F00B0BAAD /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BB370F352AA7F05F00B0BAAD /* MobileNetV2.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BB370F2A2AA7BA1C00B0BAAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB370F2D2AA7BA1C00B0BAAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB370F2F2AA7BA1C00B0BAAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB370F352AA7F05F00B0BAAD /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				BB370F252AA7BA1B00B0BAAD /* ViewController.swift */,
 				BB370F272AA7BA1B00B0BAAD /* Main.storyboard */,
 				BB370F2A2AA7BA1C00B0BAAD /* Assets.xcassets */,
+				BB370F352AA7F05F00B0BAAD /* MobileNetV2.mlmodel */,
 				BB370F2C2AA7BA1C00B0BAAD /* LaunchScreen.storyboard */,
 				BB370F2F2AA7BA1C00B0BAAD /* Info.plist */,
 			);
@@ -140,6 +143,7 @@
 			files = (
 				BB370F262AA7BA1B00B0BAAD /* ViewController.swift in Sources */,
 				BB370F222AA7BA1B00B0BAAD /* AppDelegate.swift in Sources */,
+				BB370F362AA7F05F00B0BAAD /* MobileNetV2.mlmodel in Sources */,
 				BB370F242AA7BA1B00B0BAAD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
